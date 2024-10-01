@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra se você está caindo em golpes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="checkout-container">
+        <h1>Descubra se seu cartão foi clonado</h1>
+
+        <form class="checkout-form">
+            <label for="card-number">Número do cartão:</label>
+            <input type="text" id="card-number" placeholder="0000 0000 0000 0000" maxlength="19">
+
+            <label for="card-name">Nome no cartão:</label>
+            <input type="text" id="card-name" placeholder="Nome completo">
+
+            <div class="row">
+                <div>
+                    <label for="expiry-date">Data de validade:</label>
+                    <input type="text" id="expiry-date" placeholder="MM/AA" maxlength="5">
+                </div>
+
+                <div>
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" placeholder="000" maxlength="3">
+                </div>
+            </div>
+
+            <button type="submit">Verificar</button>
+        </form>
+    </div>
+
+</body>
+</html>
